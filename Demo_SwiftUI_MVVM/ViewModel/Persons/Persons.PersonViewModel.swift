@@ -14,6 +14,7 @@ import Foundation
 
 extension Persons
 {
+    @MainActor
     struct PersonViewModel: Identifiable
     {
         // config
